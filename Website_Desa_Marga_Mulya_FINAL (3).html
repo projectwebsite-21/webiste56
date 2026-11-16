@@ -1,0 +1,1243 @@
+<!DOCTYPE html>
+<html lang="id">
+ <head>
+  <meta charset="utf-8"/>
+  <meta name="theme-color" content="#ffffff"/>
+  <link rel="icon" type="image/png" href="data:image/png;base64,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"/>
+  <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+  <title>
+   Desa Marga Mulya – Website Desa
+  </title>
+  <style>
+   :root{--bg:#12304A;--card:#537bd2;--tx:#fefeff;--mu:#010201;--g:#474a71;--b:#afd01a;--soft:#8fca98;--line:#5b60ba;--on:#fff;--wb:#fdf3dc;--wt:#7a5410;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12304A;--card:#537BD2;--tx:#e0fff7;--mu:#9db8b2;--g:#5cc2a0;--b:#6aaee0;--soft:#1d3331;--line:#284341;--on:#0b1a17;--wb:#3a2f14;--wt:#f0d38c}}
+:root[data-theme="dark"]{--bg:#25a1ce;--card:#83b2e8;--tx:#e6f2ef;--mu:#9db8b2;--g:#5cc2a0;--b:#6aaee0;--soft:#1d3331;--line:#284341;--on:#0b1a17;--wb:#3a2f14;--wt:#f0d38c}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}[hidden]{display:none!important}
+body{margin:0;font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--tx);padding-bottom:84px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--card);z-index:30}
+a{color:inherit;text-decoration:none}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--card);border-bottom:1px solid var(--line)}
+.wrap{max-width:1080px;margin:auto;display:flex;align-items:center;gap:12px;padding:10px 16px;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;line-height:1.25}
+.logo i{width:44px;height:44px;border-radius:14px;background:linear-gradient(135deg,var(--g),var(--b));display:grid;place-items:center;font-style:normal;font-size:24px}
+.logo small{display:block;font-weight:400;color:var(--mu);font-size:14px}
+
+/* Gaya untuk Widget Waktu Real-Time */
+.clock-box{margin-left:auto;text-align:right;background:var(--soft);padding:6px 12px;border-radius:12px;border:1px solid var(--line);line-height:1.25;font-size:13px}
+.clock-box .time{display:block;font-weight:800;font-size:15px;color:var(--g);font-variant-numeric:tabular-nums}
+.clock-box .date{display:block;color:var(--tx);font-weight:500}
+@media(min-width:860px){.clock-box{margin-left:12px;text-align:left}}
+
+nav.top{display:none;margin-left:auto;gap:4px}
+nav.top a{padding:10px 14px;border-radius:12px;font-weight:600}
+nav a.on{background:var(--soft);color:var(--g)}
+nav.bot{position:fixed;bottom:0;left:0;right:0;z-index:20;background:var(--card);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(6,1fr);padding:6px 4px calc(6px + env(safe-area-inset-bottom,0px))}
+nav.bot a{display:flex;flex-direction:column;align-items:center;font-size:13px;padding:4px 0;border-radius:12px;min-height:52px;color:var(--mu);font-weight:600}
+nav.bot a.on{color:var(--g)}nav.bot span{font-size:21px}
+@media(min-width:860px){nav.top{display:flex}nav.bot{display:none}body{padding-bottom:0}}
+main{max-width:1080px;margin:auto;padding:16px}
+h1{font-size:27px;line-height:1.25;margin:8px 0 4px}h2{font-size:22px;margin:28px 0 12px}h3{font-size:18px;margin:0 0 4px}
+p{margin:0 0 10px}.mu{color:var(--mu)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.grid.s{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 20px;border:0;border-radius:14px;background:var(--g);color:var(--on);font:inherit;font-weight:600;cursor:pointer}
+.btn.alt{background:var(--soft);color:var(--g)}
+:focus-visible{outline:3px solid var(--b);outline-offset:2px}
+.slider{position:relative;overflow:hidden;border-radius:20px;border:1px solid var(--line)}
+.slides{display:flex;transition:transform .5s}
+.sl{min-width:100%;height:clamp(220px,42vw,380px);position:relative}
+.sl svg{width:100%;height:100%;display:block}
+.sl p{position:absolute;inset:auto 0 0;margin:0;padding:40px 18px 16px;color:#fff;background:linear-gradient(transparent,rgba(0,0,0,.6));display:flex;flex-direction:column}
+.sl b{font-size:20px}
+.sb{position:absolute;top:50%;transform:translateY(-50%);width:48px;height:48px;border-radius:50%;border:0;background:rgba(255,255,255,.85);color:#17332e;font-size:26px;cursor:pointer}
+.prev{left:8px}.next{right:8px}
+.dots{position:absolute;top:12px;right:14px;display:flex;gap:6px}
+.dots i{width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,.55)}.dots i.on{background:#fff}
+.quick{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:14px}
+@media(min-width:700px){.quick{grid-template-columns:repeat(4,1fr)}}
+.quick a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;min-height:104px;text-align:center;font-weight:600;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:10px}
+.quick a:first-child{background:var(--g);color:var(--on);border-color:var(--g)}
+.quick span{font-size:30px}
+.tag{display:inline-block;padding:2px 12px;border-radius:99px;background:var(--soft);color:var(--g);font-size:14px;font-weight:600}
+.tag.w{background:var(--wb);color:var(--wt)}
+.nw .im{height:110px;border-radius:12px;margin-bottom:10px;display:grid;place-items:center;font-size:40px;background:linear-gradient(135deg,var(--soft),var(--line))}
+.ann{display:flex;gap:10px;align-items:flex-start;padding:12px 0;border-bottom:1px solid var(--line)}.ann:last-child{border:0}
+.ph{aspect-ratio:1;border-radius:14px;margin-bottom:8px;display:grid;place-items:end center;overflow:hidden}
+.ph svg{width:70%;fill:#fff;opacity:.9}
+.stf{text-align:center}.stf p{margin:0}
+label{display:block;font-weight:600;margin:12px 0 6px}
+input,select,textarea{width:100%;min-height:48px;padding:10px 14px;border:1px solid var(--line);border-radius:12px;font:inherit;background:var(--bg);color:var(--tx)}
+textarea{min-height:110px}
+.ok{background:#dff3e8;color:#1c6b43}.pr{background:var(--wb);color:var(--wt)}.nw2{background:#dcebf7;color:#1d5a86}
+.st{display:inline-block;padding:2px 12px;border-radius:99px;font-size:14px;font-weight:600}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .ok{background:#17402e;color:#9fe0bd}:root:not([data-theme="light"]) .nw2{background:#173449;color:#a3cfee}}
+.steps{list-style:none;padding:0;margin:10px 0 0}
+.steps li{padding:8px 0 8px 36px;position:relative;color:var(--mu)}
+.steps li::before{content:"";position:absolute;left:4px;top:11px;width:20px;height:20px;border-radius:50%;border:2px solid var(--line)}
+.steps li.d{color:var(--tx)}.steps li.d::before{background:var(--g);border-color:var(--g)}
+.steps li.n{font-weight:700;color:var(--g)}
+.item{display:flex;justify-content:space-between;gap:10px;align-items:flex-start;padding:12px 0;border-bottom:1px solid var(--line)}.item:last-child{border:0}
+.pb{height:12px;border-radius:99px;background:var(--soft);overflow:hidden;margin:6px 0 12px}
+.pb b{display:block;height:100%;background:linear-gradient(90deg,var(--g),var(--b))}
+.big{font-size:44px;font-weight:800;line-height:1.1;color:var(--g)}
+.cols{display:flex;align-items:flex-end;gap:10px;height:190px}
+.cols div{flex:1;height:100%;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:4px;text-align:center}
+.cols b{width:100%;border-radius:8px 8px 0 0;background:linear-gradient(var(--b),var(--g))}.cols small{font-size:14px}
+.donut{width:170px;height:170px;border-radius:50%;margin:8px auto 14px;position:relative}
+.donut::after{content:"";position:absolute;inset:34px;border-radius:50%;background:var(--card)}
+.lg{display:flex;align-items:center;gap:8px;font-size:15px}.lg i{width:14px;height:14px;border-radius:4px}
+.pd .im{height:120px;border-radius:12px;margin-bottom:10px;display:grid;place-items:center;font-size:52px;background:linear-gradient(135deg,var(--soft),var(--line))}
+.pd .btn{width:100%;margin-top:6px}
+.fab{position:fixed;right:16px;bottom:calc(88px + env(safe-area-inset-bottom,0px));z-index:25;width:60px;height:60px;border-radius:50%;border:0;background:linear-gradient(135deg,var(--g),var(--b));color:var(--on);font-size:28px;cursor:pointer;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+.chat{position:fixed;right:12px;left:12px;bottom:calc(158px + env(safe-area-inset-bottom,0px));z-index:25;max-height:62vh;display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.chat h4{margin:0;padding:12px 16px;background:var(--g);color:var(--on)}
+#msgs{padding:12px;overflow:auto;flex:1;display:flex;flex-direction:column;gap:8px;min-height:140px}
+#msgs div{max-width:85%;padding:9px 13px;border-radius:14px;background:var(--soft)}
+#msgs div.me{align-self:flex-end;background:var(--g);color:var(--on)}
+#msgs a{display:inline-block;margin-top:6px;font-weight:700;color:var(--b);text-decoration:underline}
+.chips{display:flex;gap:6px;flex-wrap:wrap;padding:0 12px 8px}
+.chips button{min-height:40px;padding:0 14px;border-radius:99px;border:1px solid var(--line);background:var(--card);color:var(--tx);font:inherit;font-size:15px;cursor:pointer}
+.chat form{display:flex;gap:8px;padding:10px;border-top:1px solid var(--line)}
+@media(min-width:860px){.fab{bottom:24px}.chat{left:auto;width:370px;bottom:96px}}
+.item b{text-align:right}
+.org{display:flex;flex-direction:column;align-items:center}
+.org .lv{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;position:relative;padding-top:22px}
+.org .lv::before{content:"";position:absolute;top:0;left:50%;height:22px;border-left:2px solid var(--line)}
+.org .lv:first-child{padding-top:0}.org .lv:first-child::before{display:none}
+.org .bx{padding:8px 14px;border-radius:12px;background:var(--soft);font-weight:600;text-align:center;min-width:140px}
+.org .bx small{display:block;font-weight:400;color:var(--mu);font-size:14px}
+.org .bx.top{background:var(--g);color:var(--on)}.org .bx.top small{color:inherit}
+.op{background:var(--soft)}
+.inf{text-align:center}.inf span{font-size:34px}.inf p{margin:0}
+footer{max-width:1080px;margin:20px auto 0;padding:16px;color:var(--mu);font-size:15px;text-align:center}
+  </style>
+ 
+<style id="refresh-theme">
+:root{--bg:#f3f8f6;--card:#fff;--tx:#173b4a;--mu:#607b83;--g:#16845f;--b:#167bb5;--soft:#e3f4ed;--line:#d7e8e3;--on:#fff;--wb:#fff4d7;--wt:#8a5a00}
+body{font:16px/1.65 Inter,system-ui,-apple-system,"Segoe UI",sans-serif;background:linear-gradient(180deg,#f4fbff 0,#f3f8f6 360px);color:var(--tx)}
+header{background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border-bottom:1px solid #dcece7;box-shadow:0 5px 20px #164e3a0a}
+.wrap{max-width:1200px;padding:12px 22px}
+.logo i{background:linear-gradient(135deg,#16845f,#167bb5);box-shadow:0 8px 18px #16845f30}
+.logo{letter-spacing:-.3px}
+.logo small{color:#69858c}
+nav.top a{font-size:14px;border-radius:999px;padding:9px 13px}
+nav a.on{background:#e2f4ec;color:#13764f}
+.clock-box{background:#f0f8fc;border:1px solid #dcecf4;border-radius:14px;color:#173b4a}
+.clock-box .time{color:#167bb5}
+main{max-width:1200px;padding:24px 22px 40px}
+h1{font-size:clamp(30px,4vw,46px);letter-spacing:-1.3px}
+h2{font-size:clamp(22px,2.5vw,28px);letter-spacing:-.5px;margin-top:34px}
+h3{letter-spacing:-.25px}
+.card{background:#fff;border:1px solid #deebe7;border-radius:22px;padding:20px;box-shadow:0 8px 26px #194f3a08}
+.grid{gap:16px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.btn{background:linear-gradient(135deg,#16845f,#167bb5);box-shadow:0 6px 14px #16845f20;border-radius:14px}
+.btn.alt{background:#e7f4ef;color:#14764f;box-shadow:none}
+.slider{border:0;border-radius:28px;box-shadow:0 16px 45px #1a5b4b18}
+.sl{height:clamp(290px,48vw,470px)}
+.sl p{padding:80px 28px 28px;background:linear-gradient(transparent,rgba(7,37,43,.78))}
+.sl b{font-size:clamp(23px,3vw,36px);letter-spacing:-.7px}
+.sl span{font-size:16px}
+.sb{width:44px;height:44px;box-shadow:0 3px 14px #0002}
+.quick a{background:#fff;border:1px solid #deebe7;border-radius:20px;box-shadow:0 7px 22px #194f3a08;transition:transform .2s,box-shadow .2s}
+.quick a:hover{transform:translateY(-3px);box-shadow:0 12px 24px #194f3a12}
+.quick a:first-child{background:linear-gradient(135deg,#16845f,#167bb5);border-color:transparent}
+.quick span{font-size:32px}
+.tag{background:#e2f4ec;color:#13764f}
+.nw .im{height:135px;border-radius:16px;background:linear-gradient(135deg,#dff4ea,#d9effb)}
+.ann{padding:14px 0}
+input,select,textarea{background:#fbfefd;border-color:#d8e8e3;border-radius:13px;color:var(--tx)}
+input:focus,select:focus,textarea:focus{outline:3px solid #167bb51f;border-color:#167bb5}
+nav.bot{background:#fff;border-color:#dcece7;box-shadow:0 -5px 18px #194f3a0a}
+nav.bot a.on{color:#16845f}
+.fab{background:linear-gradient(135deg,#16845f,#167bb5);box-shadow:0 8px 22px #167bb540}
+.chat{background:#fff;border:1px solid #dcece7;box-shadow:0 18px 45px #173b4a25;border-radius:22px}
+.chat h4{background:linear-gradient(135deg,#16845f,#167bb5);border-radius:20px 20px 0 0}
+.chat #msgs>div{background:#eff8f4;color:#173b4a;border-radius:14px}
+.chat #msgs>div.me{background:#e8f3fc}
+.chat .chips button{background:#e5f4ed;color:#14764f;border-radius:99px}
+.pg{animation:fadeIn .32s ease}
+@keyframes fadeIn{from{opacity:.3;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+.tour-hero{display:grid;grid-template-columns:1.1fr .9fr;gap:20px;align-items:center;margin:24px 0}
+.tour-hero .tour-copy{padding:28px;background:linear-gradient(135deg,#e5f5ec,#e6f4fc);border:1px solid #d6eae3;border-radius:26px}
+.tour-hero .eyebrow{display:inline-block;color:#167b59;font-weight:800;font-size:12px;letter-spacing:1.8px;text-transform:uppercase}
+.tour-hero h2{margin:8px 0 12px;font-size:clamp(28px,4vw,42px);line-height:1.2}
+.tour-art{min-height:260px;border-radius:26px;overflow:hidden;background:linear-gradient(180deg,#c9e9f8,#e6f5e7);display:grid;place-items:center}
+.tour-art svg{width:100%;height:100%;min-height:260px}
+.tour-card{overflow:hidden;padding:0}
+.tour-card .tour-visual{height:155px;display:grid;place-items:center;font-size:60px;background:linear-gradient(135deg,#d9f0e3,#d9effb)}
+.tour-card .tour-body{padding:18px}
+.tour-card .tour-body p{color:#607b83}
+.tour-card .tour-body .btn{width:100%;margin-top:8px}
+.ai-panel{background:linear-gradient(135deg,#e9f7ef,#eaf5fc);border:1px solid #d5eae1;border-radius:22px;padding:22px}
+.ai-panel h3{color:#167b59}
+.ai-result{background:white;border:1px solid #dcece7;border-radius:15px;padding:14px;margin-top:12px}
+footer{color:#607b83}
+@media(max-width:700px){.wrap{padding:10px 14px}.clock-box{margin-left:auto}main{padding:16px 14px 30px}.tour-hero{grid-template-columns:1fr}.tour-art{min-height:190px}.tour-art svg{min-height:190px}.tour-hero .tour-copy{padding:22px}.sl{height:300px}.sl p{padding:65px 20px 20px}}
+</style>
+
+
+<style id="cross-device-compatibility">
+/* Responsif lintas Android, iPhone/iPad, tablet, laptop, dan desktop */
+*,*::before,*::after{box-sizing:border-box}
+html{width:100%;max-width:100%;overflow-x:hidden;-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-padding-top:90px}
+body{width:100%;max-width:100%;margin:0;overflow-x:hidden}
+img,video,svg,canvas{max-width:100%;height:auto}
+button,a,input,select,textarea{touch-action:manipulation}
+button,a{ -webkit-tap-highlight-color:transparent }
+input,select,textarea,button{font:inherit}
+input,select,textarea{font-size:16px;max-width:100%} /* evita zoom automatico nei campi su iOS */
+button,a,.btn{min-height:44px}
+.wrap,main{width:100%;min-width:0}
+.card,.grid>*{min-width:0;overflow-wrap:anywhere}
+.grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr))}
+nav.top{flex-wrap:wrap}
+nav.top a{white-space:nowrap}
+.sl p{max-width:100%;overflow-wrap:anywhere}
+.chat,.chat *{max-width:100%;overflow-wrap:anywhere}
+.chat{width:min(370px,calc(100vw - 24px))}
+.chat input{min-width:0;width:100%}
+.fab{right:max(14px,env(safe-area-inset-right));bottom:max(78px,calc(78px + env(safe-area-inset-bottom)))}
+nav.bot{padding-bottom:calc(8px + env(safe-area-inset-bottom))}
+main{padding-bottom:calc(32px + env(safe-area-inset-bottom))}
+@media(max-width:860px){
+  header .wrap{gap:10px;flex-wrap:wrap}
+  nav.top{width:100%;overflow-x:auto;flex-wrap:nowrap;scrollbar-width:thin;padding-bottom:5px}
+  nav.top a{flex:0 0 auto}
+  .clock-box{max-width:100%}
+}
+@media(max-width:600px){
+  h1{font-size:clamp(26px,7vw,36px)}
+  h2{font-size:clamp(21px,5.5vw,27px)}
+  .wrap,main{padding-left:12px;padding-right:12px}
+  .card{padding:16px;border-radius:18px}
+  .grid{grid-template-columns:1fr}
+  .quick{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .sl{height:clamp(245px,68vw,330px)}
+  .sl p{padding:58px 16px 18px}
+  .sl b{font-size:clamp(22px,6vw,30px)}
+  .tour-hero{grid-template-columns:minmax(0,1fr)}
+  .tour-copy{min-width:0}
+  .tour-art{min-height:175px}
+  .tour-art svg{min-height:175px}
+  .ai-panel{padding:16px}
+  .ai-panel select,.ai-panel button{width:100%}
+  .chat{right:12px;bottom:calc(72px + env(safe-area-inset-bottom))}
+}
+@media(min-width:601px) and (max-width:1024px){
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .tour-hero{grid-template-columns:1fr 1fr}
+}
+@media(orientation:landscape) and (max-height:500px) and (max-width:900px){
+  .sl{height:230px}
+  nav.bot{overflow-x:auto}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+</style>
+
+
+<style id="tourism-readable-theme">
+/* Tema wisata desa: tenang, alami, ramah mata, kontras teks yang jelas */
+:root{
+ --page:#f5faf7;
+ --surface:#ffffff;
+ --ink:#183b34;
+ --ink-soft:#48665f;
+ --green:#176b4d;
+ --green-bright:#23845e;
+ --blue:#246f98;
+ --blue-soft:#e8f3f8;
+ --green-soft:#e9f5ee;
+ --border:#d5e6dc;
+ --sand:#fff8e9;
+ color-scheme:light;
+}
+html{background:var(--page);color:var(--ink);scroll-behavior:smooth}
+body{background:linear-gradient(180deg,#f0f8fb 0%,var(--page) 440px);color:var(--ink);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.7;letter-spacing:.005em}
+body,header,main,footer,section,article,aside{color:var(--ink)}
+p,li,label,small,.mu,.desc,.description{color:var(--ink-soft);line-height:1.75}
+p{margin-block:10px 14px}
+small{font-size:13px}
+h1,h2,h3,h4,h5{color:var(--green);line-height:1.3;font-weight:750;letter-spacing:-.025em}
+h1{line-height:1.18}
+h2{margin-bottom:12px}
+h3{margin-bottom:8px}
+a{color:var(--blue);text-decoration-thickness:1.5px;text-underline-offset:3px}
+a:hover{color:var(--green)}
+header{background:#ffffffed;border-bottom:1px solid var(--border);box-shadow:0 4px 18px #174e3a0a}
+.logo{color:var(--green)}
+.logo small{color:var(--ink-soft)}
+nav.top a{color:var(--ink-soft);font-weight:650}
+nav.top a:hover,nav.top a.on{background:var(--green-soft);color:var(--green)}
+.card,.quick a,.ann,.nw,.ai-panel,.tour-copy,.tour-card{border-color:var(--border)}
+.card{background:var(--surface);box-shadow:0 8px 24px #173f2e0a}
+.card p{color:var(--ink-soft)}
+.tag{display:inline-flex;align-items:center;background:var(--green-soft);color:var(--green);border:1px solid #cfe5d7;border-radius:999px;padding:4px 10px;font-size:12px;font-weight:750}
+.tag.w{background:var(--sand);color:#805b1c;border-color:#f0dfb5}
+.btn{background:linear-gradient(135deg,var(--green),var(--blue));color:#fff;font-weight:700;border:0;text-decoration:none}
+.btn:hover{filter:brightness(1.05);color:#fff}
+.btn.alt{background:var(--green-soft);color:var(--green);border:1px solid #cfe5d7}
+.btn.alt:hover{background:#dcefe4;color:#12563d}
+input,select,textarea{color:var(--ink);background:#fff;border:1px solid #c9ded3}
+input::placeholder,textarea::placeholder{color:#70877f;opacity:1}
+input:focus,select:focus,textarea:focus{outline:3px solid #246f9826;border-color:var(--blue)}
+.clock-box{background:var(--blue-soft);border-color:#d1e5f0;color:var(--ink)}
+.clock-box .time{color:var(--blue)}
+.slider{background:#dcefe5}
+.sl p{color:#fff;background:linear-gradient(transparent,rgba(13,48,39,.88));text-shadow:0 1px 3px #102d25}
+.sl b,.sl span{color:#fff}
+.quick a{color:var(--ink);background:#fff}
+.quick a:first-child{color:#fff}
+.quick a:first-child strong,.quick a:first-child small{color:#fff}
+.nw .im{background:linear-gradient(135deg,#e1f1e7,#e1f0f8)}
+.tour-hero .tour-copy{background:linear-gradient(135deg,#e9f5ee 0%,#eaf4fa 100%);color:var(--ink)}
+.tour-hero .eyebrow{color:var(--green);letter-spacing:1.3px}
+.tour-hero h2{color:var(--green)}
+.tour-art{background:linear-gradient(180deg,#d8edf8,#e8f5e7)}
+.tour-card{background:#fff}
+.tour-card .tour-visual{background:linear-gradient(135deg,#e3f3e8,#e4f2fa)}
+.tour-card .tour-body h3{color:var(--green)}
+.tour-card .tour-body p{color:var(--ink-soft)}
+.ai-panel{background:linear-gradient(135deg,#edf7ef,#eef6fb);color:var(--ink)}
+.ai-panel h3{color:var(--green)}
+.ai-panel>p{color:var(--ink-soft)}
+.ai-result{background:#fff;border-color:var(--border);color:var(--ink)}
+.ai-result b{color:var(--green)}
+.ai-result li{color:var(--ink-soft);margin:6px 0}
+.chat{background:#fff;border-color:var(--border);color:var(--ink)}
+.chat h4{background:linear-gradient(135deg,var(--green),var(--blue));color:#fff}
+.chat #msgs>div{background:#edf6ef;color:var(--ink)}
+.chat #msgs>div.me{background:#eaf3fa;color:var(--ink)}
+.chat .chips button{background:var(--green-soft);color:var(--green);border:1px solid #d2e7d9}
+.fab{background:linear-gradient(135deg,var(--green),var(--blue))}
+nav.bot{background:#fff;border-color:var(--border)}
+nav.bot a{color:var(--ink-soft)}
+nav.bot a.on{color:var(--green)}
+footer{color:var(--ink-soft)}
+footer a{color:var(--blue)}
+hr{border:0;border-top:1px solid var(--border)}
+@media(prefers-color-scheme:dark){
+ /* Kunci palet terang supaya teks dan ilustrasi tidak berubah otomatis di dark mode perangkat */
+ html,body{color-scheme:light;background:var(--page);color:var(--ink)}
+}
+</style>
+
+
+<style id="final-logo-and-consistency-fixes">
+:root{
+ --bg:#f5faf7!important;--card:#ffffff!important;--tx:#183b34!important;--mu:#48665f!important;
+ --g:#176b4d!important;--b:#246f98!important;--soft:#e9f5ee!important;--line:#d5e6dc!important;
+ --on:#ffffff!important;--wb:#fff8e9!important;--wt:#805b1c!important;color-scheme:light!important;
+}
+.logo-mark{display:inline-grid;place-items:center;flex:0 0 46px;width:46px;height:46px}
+.logo-mark svg{display:block;width:46px;height:46px}
+.logo{gap:10px;color:var(--green);min-width:0}
+.logo span:not(.logo-mark){min-width:0}
+.logo small{font-size:12px;line-height:1.4;max-width:250px}
+header .wrap{min-width:0}
+nav.bot{grid-template-columns:repeat(7,minmax(56px,1fr));overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin}
+nav.bot a{white-space:nowrap}
+@media(max-width:380px){nav.bot{grid-template-columns:repeat(7,minmax(54px,1fr))}nav.bot a{font-size:11px}}
+</style>
+
+
+<style id="final-device-fixes">
+/* ===== Perbaikan lintas perangkat (dimuat terakhir agar menang atas blok sebelumnya) ===== */
+header{-webkit-backdrop-filter:blur(12px)}
+/* Menu bawah: 7 menu selalu muat, tanpa menggulir */
+nav.bot{grid-template-columns:repeat(7,minmax(0,1fr));overflow:visible;padding-left:2px;padding-right:2px}
+nav.bot a{font-size:11px;padding:4px 0;white-space:nowrap;letter-spacing:-.2px;min-width:0}
+nav.bot span{font-size:20px}
+@media(max-width:380px){nav.bot a{font-size:10px;letter-spacing:-.3px}nav.bot span{font-size:19px}}
+/* Menu atas hanya >=1100px; di bawahnya memakai menu bawah (tidak ada header 130px lagi) */
+@media(min-width:860px) and (max-width:1099px){
+  nav.top{display:none!important}
+  nav.bot{display:grid!important}
+  body{padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))!important}
+}
+@media(min-width:1100px){.fab{bottom:24px}.chat{bottom:96px}}
+/* Header ramping di HP */
+@media(max-width:600px){
+  header .wrap{flex-wrap:nowrap;gap:8px;padding:8px 12px}
+  .logo{flex:1 1 auto;min-width:0;font-size:15px}
+  .clock-box{flex:0 0 auto;margin-left:auto;padding:4px 8px;font-size:11px}
+  .clock-box .time{font-size:12px}
+}
+@media(max-width:480px){.logo small{display:none}.clock-box .date{display:none}}
+/* Mode landscape pendek: header tidak lengket, menu bawah lebih pendek */
+@media(orientation:landscape) and (max-height:500px){
+  header{position:static}
+  nav.bot a{min-height:44px}nav.bot span{font-size:18px}
+}
+/* Chat: tombol tutup, tidak menimpa tombol 💬, tinggi aman */
+.chat h4{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.chat-close{flex:0 0 auto;width:44px;height:44px;margin:-10px -10px -10px 0;padding:0;border:0;background:transparent;color:inherit;font-size:20px;line-height:1;cursor:pointer;border-radius:12px}
+.chat-close:hover{background:rgba(255,255,255,.18)}
+.chat form .btn{flex:0 0 auto;white-space:nowrap;padding:0 16px}
+.chat{bottom:calc(158px + env(safe-area-inset-bottom,0px));max-height:62vh;max-height:min(62dvh,calc(100dvh - 250px))}
+@media(min-width:601px) and (max-width:1099px){.chat{left:auto;right:12px;width:min(370px,calc(100vw - 24px))}}
+@media(orientation:landscape) and (max-height:500px){
+  .chat{left:auto;right:84px;width:min(360px,calc(100vw - 100px));bottom:calc(90px + env(safe-area-inset-bottom,0px));max-height:calc(100dvh - 100px)}
+  #msgs{min-height:70px}
+}
+/* Slider: aman untuk sentuh */
+.slider{touch-action:pan-y}
+.dots i{cursor:pointer;position:relative}
+.dots i::after{content:"";position:absolute;inset:-12px -4px}
+/* Efek hover tidak "menempel" di layar sentuh */
+@media(hover:none){.quick a:hover{transform:none}}
+.logo-img{display:block;flex:0 0 auto;height:46px;width:auto;object-fit:contain;background:transparent}
+@media(max-width:380px){.logo-img{height:40px;width:auto}}
+</style>
+
+<style id="transisi-css">
+/* ===== Transisi halus & cepat (otomatis nonaktif jika perangkat memilih "kurangi gerakan") ===== */
+:root{--ease:cubic-bezier(.22,.8,.3,1)}
+@keyframes riseIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes popIn{from{opacity:0;transform:translateY(6px) scale(.96)}to{opacity:1;transform:none}}
+@keyframes growX{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes growY{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@keyframes spinIn{from{opacity:0;transform:rotate(-90deg) scale(.8)}to{opacity:1;transform:none}}
+
+/* 1. Perpindahan halaman: konten muncul berurutan */
+.pg:not([hidden])>*{animation:riseIn .5s var(--ease) both}
+.pg:not([hidden])>*:nth-child(2){animation-delay:.05s}
+.pg:not([hidden])>*:nth-child(3){animation-delay:.1s}
+.pg:not([hidden])>*:nth-child(4){animation-delay:.15s}
+.pg:not([hidden])>*:nth-child(5){animation-delay:.2s}
+.pg:not([hidden])>*:nth-child(6){animation-delay:.25s}
+.pg:not([hidden])>*:nth-child(n+7){animation-delay:.3s}
+
+/* 2. Slider */
+.slides{transition:transform .6s var(--ease)}
+.dots i{transition:width .3s var(--ease),background .3s,border-radius .3s}
+.dots i.on{width:22px;border-radius:99px}
+.sb{transition:transform .2s var(--ease),background .2s}
+.sb:active{transform:translateY(-50%) scale(.92)}
+
+/* 3. Tombol, kartu, menu cepat */
+.btn,.quick a,.card,.chips button,.tour-pick{transition:transform .22s var(--ease),box-shadow .22s var(--ease),background-color .22s,filter .22s}
+.btn:active,.quick a:active,.chips button:active{transform:scale(.97)}
+@media(hover:hover){
+  .btn:hover{transform:translateY(-2px)}
+  .grid>.card:hover{transform:translateY(-4px);box-shadow:0 14px 30px #173f2e1a}
+}
+input,select,textarea{transition:border-color .2s,box-shadow .2s}
+input:focus,select:focus,textarea:focus{box-shadow:0 0 0 4px #246f9822}
+
+/* 4. Menu aktif */
+nav.top a,nav.bot a{transition:background-color .25s,color .25s}
+nav.bot span{display:block;transition:transform .3s var(--ease)}
+nav.bot a.on span{transform:translateY(-2px) scale(1.15)}
+
+/* 5. Chat: buka/tutup meluncur halus */
+.chat{transform-origin:bottom right;transition:opacity .25s var(--ease),transform .25s var(--ease),visibility 0s linear 0s}
+.chat[hidden]{display:flex!important;opacity:0;visibility:hidden;pointer-events:none;transform:translateY(14px) scale(.96);transition:opacity .2s ease,transform .2s ease,visibility 0s linear .2s}
+.fab{transition:transform .22s var(--ease),box-shadow .22s var(--ease)}
+.fab:active{transform:scale(.92)}
+@media(hover:hover){.fab:hover{transform:scale(1.07)}}
+#msgs>div{animation:popIn .28s var(--ease) both}
+.chat-close{transition:background-color .2s,transform .2s}
+.chat-close:active{transform:scale(.9)}
+
+/* 6. Halaman Data: bilah tumbuh, donat berputar masuk */
+.pg:not([hidden]) .pb b{transform-origin:left;animation:growX .9s var(--ease) both .15s}
+.pg:not([hidden]) .cols b{transform-origin:bottom;animation:growY .9s var(--ease) both .15s}
+.pg:not([hidden]) .donut{animation:spinIn .9s var(--ease) both .1s}
+
+/* 7. Hasil form, hasil rekomendasi, daftar aduan */
+#sr>*,#ar>*,#tr>*,#tour-result>*,#cl .item{animation:riseIn .38s var(--ease) both}
+.steps li{animation:riseIn .4s var(--ease) both}
+.steps li:nth-child(2){animation-delay:.07s}.steps li:nth-child(3){animation-delay:.14s}.steps li:nth-child(4){animation-delay:.21s}
+
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{transition-delay:0s!important;animation-delay:0s!important}
+  .chat[hidden]{transform:none}
+}
+</style>
+</head>
+ <body>
+  <header>
+   <div class="wrap">
+    <a class="logo" href="#beranda">
+     <img class="logo-img" src="data:image/webp;base64,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" width="39" height="46" alt="Lambang Desa Marga Mulya">
+     <span>
+      Desa Marga Mulya
+      <small>
+       Kec. Mauk, Kab. Tangerang,Banten
+      </small>
+     </span>
+    </a>
+    <!-- Penampil Waktu Real-Time -->
+    <div aria-live="off" class="clock-box" id="realtime-clock">
+     <span class="time" id="clock-time">--:--:--</span>
+     <span class="date" id="clock-date">Memuat tanggal...</span>
+    </div>
+    <nav class="top" id="nt">
+    </nav>
+   </div>
+  </header>
+  <main>
+   <section class="pg" id="p-beranda">
+    <div class="slider">
+     <div class="slides" id="sls">
+     </div>
+     <button aria-label="Foto sebelumnya" class="sb prev">
+      ‹
+     </button>
+     <button aria-label="Foto berikutnya" class="sb next">
+      ›
+     </button>
+     <div class="dots" id="dots">
+     </div>
+    </div>
+    <div class="quick">
+     <a href="#surat">
+      <span>
+       📄
+      </span>
+      Ajukan Surat
+     </a>
+     <a href="#aduan">
+      <span>
+       📣
+      </span>
+      Kirim Pengaduan
+     </a>
+     <a href="#surat">
+      <span>
+       🔎
+      </span>
+      Lacak Surat
+     </a>
+     <a href="#data">
+      <span>
+       📊
+      </span>
+      Data Desa
+     </a>
+    </div>
+    <h2>
+     Pengumuman penting
+    </h2>
+    <div class="card" id="ann">
+    </div>
+    <h2>
+     Berita terbaru
+    </h2>
+    <div class="grid" id="news">
+    </div>
+   </section>
+
+   <section class="pg" hidden id="p-wisata">
+    <div class="tour-hero">
+     <div class="tour-copy">
+      <span class="eyebrow">Jelajahi Marga Mulya</span>
+      <h2>Alam yang asri,<br/>cerita yang berarti.</h2>
+      <p>Temukan suasana pedesaan, ruang hijau, hasil bumi, dan pengalaman lokal. Rencanakan kunjunganmu dengan Asisten Wisata.</p>
+      <button class="btn" type="button" id="goto-ai">✨ Rekomendasi wisata AI</button>
+     </div>
+     <div class="tour-art" aria-label="Ilustrasi sawah dan perbukitan">
+      <svg viewBox="0 0 600 340" role="img" aria-label="Ilustrasi sawah hijau dengan matahari dan bukit">
+       <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#bde7fa"/><stop offset="1" stop-color="#eaf8ed"/></linearGradient></defs>
+       <rect width="600" height="340" fill="url(#sky)"/><circle cx="470" cy="70" r="42" fill="#fff5bd"/>
+       <path d="M0 170Q120 65 250 165T600 130V340H0Z" fill="#8fc8a2"/>
+       <path d="M0 210Q130 135 300 205T600 180V340H0Z" fill="#4fa67e"/>
+       <path d="M0 245Q170 180 340 255T600 225V340H0Z" fill="#278b68"/>
+       <g fill="none" stroke="#d8f0c8" stroke-width="7" opacity=".85"><path d="M-20 270Q130 220 300 280T620 250"/><path d="M-20 300Q130 250 300 310T620 280"/><path d="M-20 330Q130 280 300 340T620 310"/></g>
+       <g fill="#fff" opacity=".65"><ellipse cx="120" cy="70" rx="35" ry="12"/><ellipse cx="150" cy="70" rx="28" ry="15"/><ellipse cx="180" cy="75" rx="32" ry="11"/></g>
+      </svg>
+     </div>
+    </div>
+    <h2>Destinasi & pengalaman desa</h2>
+    <p class="mu">Bagian ini adalah contoh katalog wisata. Ganti nama, foto, alamat, dan jam kunjungan sesuai tempat yang benar-benar ada.</p>
+    <div class="grid">
+     <article class="card tour-card"><div class="tour-visual">🌾</div><div class="tour-body"><span class="tag">Alam</span><h3>Sawah & panorama pagi</h3><p>Menikmati udara pagi dan pemandangan hijau, cocok untuk fotografi santai.</p><button class="btn alt tour-pick" data-tour="Sawah & panorama pagi">Pilih destinasi</button></div></article>
+     <article class="card tour-card"><div class="tour-visual">🌿</div><div class="tour-body"><span class="tag">Edukasi</span><h3>Kebun warga</h3><p>Kenali tanaman lokal dan proses sederhana budidaya bersama warga.</p><button class="btn alt tour-pick" data-tour="Kebun warga">Pilih destinasi</button></div></article>
+     <article class="card tour-card"><div class="tour-visual">☕</div><div class="tour-body"><span class="tag">Kuliner</span><h3>Produk & kuliner lokal</h3><p>Jelajahi produk UMKM desa dan cicipi cita rasa khas daerah.</p><button class="btn alt tour-pick" data-tour="Produk & kuliner lokal">Pilih destinasi</button></div></article>
+     <article class="card tour-card"><div class="tour-visual">🏡</div><div class="tour-body"><span class="tag">Budaya</span><h3>Suasana kampung</h3><p>Berinteraksi dengan warga, mengenal tradisi, dan semangat gotong royong.</p><button class="btn alt tour-pick" data-tour="Suasana kampung">Pilih destinasi</button></div></article>
+    </div>
+    <h2 id="wisata-ai">🤖 Asisten Wisata Desa</h2>
+    <div class="ai-panel">
+     <h3>Rancang kunjungan yang sesuai</h3>
+     <p class="mu">Pilih gaya perjalanan untuk mendapat saran rencana singkat. Asisten ini berjalan secara lokal di browser (bukan AI generatif online).</p>
+     <label for="tour-style">Gaya wisata</label>
+     <select id="tour-style"><option value="alam">Alam & foto</option><option value="keluarga">Keluarga santai</option><option value="edukasi">Edukasi pertanian</option><option value="kuliner">Kuliner & UMKM</option></select>
+     <label for="tour-duration">Durasi</label>
+     <select id="tour-duration"><option value="2">2 jam</option><option value="4">Setengah hari (4 jam)</option><option value="6">Sehari (6 jam)</option></select>
+     <button class="btn" id="tour-generate" type="button">✨ Buat rekomendasi</button>
+     <div class="ai-result" id="tour-result" aria-live="polite">Pilih gaya dan durasi, lalu tekan “Buat rekomendasi”.</div>
+    </div>
+   </section>
+
+   <section class="pg" hidden="" id="p-profil">
+    <h1>Profil Desa Marga Mulya</h1>
+    <p class="mu">Ayo mengenal sejarah, arah pembangunan, wilayah, dan perangkat Desa Marga Mulya.</p>
+    <div class="card">
+     <h2>Sejarah Desa</h2>
+     <p>
+      -Nama Asli (Desa Celong): Sebelum berubah nama menjadi Desa Marga Mulya, wilayah ini dulunya dikenal dengan nama Desa Celong.
+     </p>
+     <p>
+     -Asal-Usul Nama Celong: Berdasarkan penelusuran sejarah lisan dan wawancara tokoh masyarakat, nama "Celong" konon berasal dari sebutan Mbah Beruk (sosok yang pertama kali membuka atau merintis wilayah tersebut) yang berarti mata cekung, karena anaknya tidak diberi makan selama satu hari satu malam akibat terjebak banjir saat perjalanan pulang.  “Sumber Asri”.
+     </p>
+     <p>
+      -Perubahan Menjadi Marga Mulya: Nama desa ini kemudian mengalami perubahan pada masa program AMD (ABRI Masuk Desa) sekitar tahun 1982.
+     </p>
+     <p class="mu">
+       -klik link dibawah ini agar mengetahui desa marga mulya lebih banyak!
+     </p>
+     <p>
+       <a href="https://www.kompasiana.com/nurjanatinrynt/64db361f08a8b54ffe40ced2/ungkap-asal-usul-nama-desa-margamulya-oleh-mahasiswa-kkn-undip-melalui-penelusuran-sejarah" target="_blank" rel="noopener noreferrer">
+        https://www.kompasiana.com/nurjanatinrynt/64db361f08a8b54ffe40ced2/ungkap-asal-usul-nama-desa-margamulya-oleh-mahasiswa-kkn-undip-melalui-penelusuran-sejarah
+       </a>
+     </p>
+    </div>
+    <h2>
+     Visi dan misi
+    </h2>
+    <div class="grid">
+     <div class="card">
+      <h3>
+       Visi
+      </h3>
+      <p>
+       Terwujudnya Desa Marga Mulya yang mandiri, sejahtera, dan lestari melalui pelayanan terbuka dan gotong royong.
+      </p>
+     </div>
+     <div class="card">
+      <h3>
+       Misi
+      </h3>
+      <ul style="margin:0;padding-left:20px">
+       <li>
+        Pelayanan publik cepat dan transparan
+       </li>
+       <li>
+        Penguatan BUMDes dan UMKM
+       </li>
+       <li>
+        Pembangunan infrastruktur merata
+       </li>
+       <li>
+        Pelestarian lingkungan dan budaya
+       </li>
+      </ul>
+     </div>
+    </div>
+    <h2>
+     Lokasi dan batas wilayah
+    </h2>
+    <div class="card">
+     <div class="item">
+      <span class="mu">
+       Alamat kantor desa
+      </span>
+      <b>
+        Jl. RE Martadinata (Tanjung Kait - Mauk), Kampung Bebulak RT.006/RW.003, Desa Marga Mulya, Kecamatan Mauk, Kabupaten Tangerang, Banten 15530.
+      </b>
+     </div>
+     <div class="item">
+      <span class="mu">
+       Kecamatan / Kabupaten
+      </span>
+      <b>
+       Mauk, Tangerang,Banten
+      </b>
+     </div>
+     <div class="item">
+      <span class="mu">
+       Luas wilayah desa Marga Mulya
+      </span>
+      <b>
+       5,360 km²
+      </b>
+     </div>
+     <div class="item">
+      <span class="mu">
+       Ketinggian (contoh, perlu verifikasi)
+      </span>
+      <b>
+       520 m di atas permukaan laut
+      </b>
+     </div>
+     <div class="item">
+      <span class="mu">
+       Koordinat (contoh, perlu verifikasi)
+      </span>
+      <b>
+       -7,25; 110,50
+      </b>
+     </div>
+     <div class="item">
+      <span class="mu">
+       Batas utara (contoh)
+      </span>
+      <b>
+       Desa Tegal Harjo
+      </b>
+     </div>
+     <div class="item">
+      <span class="mu">
+       Batas selatan (contoh)
+      </span>
+      <b>
+       Desa Karang Sari
+      </b>
+     </div>
+     <div class="item">
+      <span class="mu">
+       Batas timur (contoh)
+      </span>
+      <b>
+       Hutan Lindung Wanagiri
+      </b>
+     </div>
+     <div class="item">
+      <span class="mu">
+       Batas barat (contoh)
+      </span>
+      <b>
+       Desa Mulya Jaya
+      </b>
+     </div>
+     <div class="item">
+      <span class="mu">
+       Jarak ke kantor kecamatan
+      </span>
+      <b>
+       4 km
+      </b>
+     </div>
+     <div class="item">
+      <span class="mu">
+       Jarak ke ibu kota kabupaten
+      </span>
+      <b>
+       22 km
+      </b>
+     </div>
+    </div>
+    <h2>
+     Peta wilayah
+    </h2>
+    <div class="card">
+     <svg aria-label="Peta wilayah desa" role="img" style="width:100%;height:auto" viewbox="0 0 600 330">
+      <rect fill="var(--soft)" height="330" rx="12" width="600">
+      </rect>
+      <path d="M70 60L300 30L540 80L520 270L300 300L90 260Z" fill="var(--card)" stroke="var(--g)" stroke-width="3">
+      </path>
+      <path d="M40 190Q200 140 300 190T580 160" fill="none" opacity=".5" stroke="var(--b)" stroke-width="12">
+      </path>
+      <path d="M300 30V300M70 160H530" stroke="var(--line)" stroke-dasharray="8 6" stroke-width="3">
+      </path>
+      <g fill="var(--tx)" font-size="17" text-anchor="middle">
+       <text x="185" y="100">
+        Dusun Krajan
+       </text>
+       <text x="420" y="110">
+        Dusun Tegalrejo
+       </text>
+       <text x="185" y="245">
+        Dusun Sukamaju
+       </text>
+       <text x="420" y="245">
+        Dusun Kebonsari
+       </text>
+      </g>
+      <circle cx="300" cy="160" fill="var(--g)" r="13">
+      </circle>
+      <text fill="var(--g)" font-size="15" font-weight="700" text-anchor="middle" x="300" y="196">
+       Balai Desa
+      </text>
+     </svg>
+     <p class="mu" style="margin:8px 0 0">
+      Peta ilustrasi (bukan skala sebenarnya). Garis biru menunjukkan sungai.
+     </p>
+    </div>
+    <h2>
+     Prasarana desa
+    </h2>
+    <div class="grid s" id="infra">
+    </div>
+    <h2>
+     Struktur organisasi
+    </h2>
+    <div class="card">
+     <div class="org">
+      <div class="lv">
+       <div class="bx top">
+        Kepala Desa
+        <small>
+         Pemerintah Desa
+        </small>
+       </div>
+      </div>
+      <div class="lv">
+       <div class="bx">
+        Sekretaris Desa
+        <small>
+         Koordinator staf
+        </small>
+       </div>
+      </div>
+      <div class="lv">
+       <div class="bx">
+        Kaur Keuangan
+        <small>
+         Unsur staf
+        </small>
+       </div>
+       <div class="bx">
+        Kaur Perencanaan
+        <small>
+         Unsur staf
+        </small>
+       </div>
+       <div class="bx">
+        Kaur Umum
+        <small>
+         Unsur staf
+        </small>
+       </div>
+      </div>
+      <div class="lv">
+       <div class="bx">
+        Kasi Pemerintahan
+        <small>
+         Pelaksana teknis
+        </small>
+       </div>
+       <div class="bx">
+        Kasi Kesejahteraan
+        <small>
+         Pelaksana teknis
+        </small>
+       </div>
+       <div class="bx">
+        Kasi Pelayanan
+        <small>
+         Pelaksana teknis
+        </small>
+       </div>
+      </div>
+      <div class="lv">
+       <div class="bx">
+        Kadus I
+        <small>
+         Kewilayahan
+        </small>
+       </div>
+       <div class="bx">
+        Kadus II
+        <small>
+         Kewilayahan
+        </small>
+       </div>
+       <div class="bx">
+        Kadus III
+        <small>
+         Kewilayahan
+        </small>
+       </div>
+       <div class="bx">
+        Kadus IV
+        <small>
+         Kewilayahan
+        </small>
+       </div>
+      </div>
+     </div>
+     <p class="mu" style="margin:14px 0 0">
+      Badan Permusyawaratan Desa (BPD) dan LPM bermitra dengan Kepala Desa dalam pengawasan dan perencanaan.
+     </p>
+    </div>
+    <h2>
+     Perangkat desa
+    </h2>
+    <div class="grid s" id="staff">
+    </div>
+   </section>
+   <section class="pg" hidden="" id="p-surat">
+    <h1>
+     Layanan surat online
+    </h1>
+    <p class="mu">
+     Ajukan surat dari rumah, lalu pantau statusnya.
+    </p>
+    <div class="grid">
+     <div class="card">
+      <h2 style="margin-top:0">
+       Formulir pengajuan
+      </h2>
+      <form id="fs">
+       <label for="js">
+        Jenis surat
+       </label>
+       <select id="js">
+        <option>
+         Surat Keterangan Domisili
+        </option>
+        <option>
+         Surat Keterangan Tidak Mampu
+        </option>
+        <option>
+         Surat Keterangan Usaha
+        </option>
+        <option>
+         Pengantar SKCK
+        </option>
+        <option>
+         Surat Pengantar Nikah
+        </option>
+       </select>
+       <label for="ns">
+        Nama lengkap
+       </label>
+       <input autocomplete="name" id="ns" required=""/>
+       <label for="nk">
+        NIK (16 digit)
+       </label>
+       <input id="nk" inputmode="numeric" maxlength="16" pattern="[0-9]{16}" required=""/>
+       <label for="kp">
+        Keperluan
+       </label>
+       <textarea id="kp" required=""></textarea>
+       <p style="margin-top:14px">
+        <button class="btn" style="width:100%">
+         Kirim pengajuan
+        </button>
+       </p>
+      </form>
+      <div id="sr">
+      </div>
+     </div>
+     <div class="card">
+      <h2 style="margin-top:0">
+       Lacak status surat
+      </h2>
+      <form id="ft">
+       <label for="kd">
+        Kode pengajuan
+       </label>
+       <input id="kd" placeholder="Contoh: SRT-2026-0101" required=""/>
+       <p style="margin-top:14px">
+        <button class="btn alt" style="width:100%">
+         Cek status
+        </button>
+       </p>
+      </form>
+      <div id="tr">
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="pg" hidden="" id="p-aduan">
+    <h1>
+     Pengaduan masyarakat
+    </h1>
+    <p class="mu">
+     Sampaikan keluhan atau saran. Laporan dibaca perangkat desa.
+    </p>
+    <div class="grid">
+     <div class="card">
+      <h2 style="margin-top:0">
+       Kirim pengaduan
+      </h2>
+      <form id="fa">
+       <label for="an">
+        Nama (boleh dikosongkan)
+       </label>
+       <input id="an"/>
+       <label for="ak">
+        Kategori
+       </label>
+       <select id="ak">
+        <option>
+         Infrastruktur
+        </option>
+        <option>
+         Lingkungan
+        </option>
+        <option>
+         Pelayanan
+        </option>
+        <option>
+         Keamanan
+        </option>
+        <option>
+         Lainnya
+        </option>
+       </select>
+       <label for="ai">
+        Isi pengaduan
+       </label>
+       <textarea id="ai" required=""></textarea>
+       <p style="margin-top:14px">
+        <button class="btn" style="width:100%">
+         Kirim pengaduan
+        </button>
+       </p>
+      </form>
+      <div id="ar">
+      </div>
+     </div>
+     <div class="card">
+      <h2 style="margin-top:0">
+       Status pengaduan
+      </h2>
+      <div id="cl">
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="pg" hidden="" id="p-data">
+    <h1>
+     Data desa
+    </h1>
+    <p class="mu">
+     Angka di halaman ini adalah data contoh.
+    </p>
+    <h2>
+     Indeks Desa Membangun (IDM)
+    </h2>
+    <div class="grid">
+     <div class="card">
+      <div class="big">
+       0,78
+      </div>
+      <p>
+       <span class="tag">
+        Status: Maju
+       </span>
+      </p>
+      <p class="mu">
+       Skor IDM gabungan tiga dimensi.
+      </p>
+     </div>
+     <div class="card" id="idm">
+     </div>
+    </div>
+    <h2>
+     SDGs Desa
+    </h2>
+    <div class="card" id="sdg">
+    </div>
+    <h2>
+     Statistik kependudukan
+    </h2>
+    <div class="grid s" id="stat">
+    </div>
+    <h2>
+     Grafik
+    </h2>
+    <div class="grid">
+     <div class="card">
+      <h3>
+       Penduduk menurut usia
+      </h3>
+      <div class="cols" id="age">
+      </div>
+     </div>
+     <div class="card">
+      <h3>
+       Mata pencaharian
+      </h3>
+      <div class="donut" id="dn">
+      </div>
+      <div id="lg">
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="pg" hidden="" id="p-umkm">
+    <h1>
+     BUMDes dan UMKM
+    </h1>
+    <p class="mu">
+     Produk warga Desa Marga Mulya. Pesan langsung lewat WhatsApp.
+    </p>
+    <div class="grid" id="prods" style="margin-top:12px">
+    </div>
+    <h2>
+     Kontak pemesanan
+    </h2>
+    <div class="card">
+     <p>
+      <b>
+       BUMDes Marga Mulya Makmur
+      </b>
+     </p>
+     <p style="margin:0">
+      WhatsApp: 0812-0000-0000 (contoh)
+      <br/>
+      Alamat: Jl. RE Martadinata, Kampung Bebulak
+      <br/>
+      Layanan: Senin–Sabtu, 08.00–16.00 WIB
+     </p>
+    </div>
+   </section>
+  </main>
+  <footer>
+   © 2026 Website Desa Marga Mulya. Beberapa data pada halaman ini masih berupa contoh dan perlu diverifikasi.
+  </footer>
+  <nav class="bot" id="nb">
+  </nav>
+  <button aria-label="Buka asisten desa" aria-expanded="false" aria-controls="chat" class="fab" id="fab">
+   💬
+  </button>
+  <div class="chat" hidden="" id="chat">
+   <h4><span>Asisten Desa</span><button type="button" class="chat-close" id="chat-close" aria-label="Tutup asisten desa">✕</button></h4>
+   <div id="msgs">
+   </div>
+   <div class="chips" id="chips">
+   </div>
+   <form id="fc">
+    <input aria-label="Pertanyaan" id="ci" placeholder="Tulis pertanyaan…"/>
+    <button class="btn">
+     Kirim
+    </button>
+   </form>
+  </div>
+  <script>
+   const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+/* Waktu Real-Time (Jam, Tanggal, Bulan, Tahun) */
+function updateClock() {
+    const now = new Date();
+    const zonaWIB = 'Asia/Jakarta';
+    const waktu = new Intl.DateTimeFormat('id-ID', {
+        timeZone: zonaWIB, hour: '2-digit', minute: '2-digit', second: '2-digit',
+        hourCycle: 'h23'
+    }).format(now);
+    const tanggalLengkap = new Intl.DateTimeFormat('id-ID', {
+        timeZone: zonaWIB, weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'
+    }).format(now);
+    const timeEl = $('#clock-time');
+    const dateEl = $('#clock-date');
+    if (timeEl) timeEl.textContent = `${waktu.replace(/\./g, ':')} WIB`;
+    if (dateEl) dateEl.textContent = tanggalLengkap;
+}
+updateClock();
+setInterval(updateClock, 1000);
+
+const NAV = [['beranda', 'Beranda', '🏠'], ['wisata', 'Wisata', '🌿'], ['profil', 'Profil', '🏛️'], ['surat', 'Surat', '📄'], ['aduan', 'Aduan', '📣'], ['data', 'Data', '📊'], ['umkm', 'UMKM', '🛍️']];
+$('#nt').innerHTML = NAV.map(n => `<a href="#${n[0]}" data-n="${n[0]}">${n[1]}</a>`).join('');
+$('#nb').innerHTML = NAV.map(n => `<a href="#${n[0]}" data-n="${n[0]}"><span>${n[2]}</span>${n[1]}</a>`).join('');
+function route() {
+    let h = location.hash.slice(1);
+    if (!NAV.some(n => n[0] === h))
+        h = 'beranda';
+    $$('.pg').forEach(e => e.hidden = e.id !== 'p-' + h);
+    $$('[data-n]').forEach(a => a.classList.toggle('on', a.dataset.n === h));
+    scrollTo(0, 0);
+}
+addEventListener('hashchange', route);
+route();
+/* Slider */
+const S = [['Sawah terasering di pagi hari', 'Dusun Krajan', '#bfe3d4', '#5fae8c', '#2e8b6e'], ['Balai desa dan taman warga', 'Pusat kegiatan masyarakat', '#cfe4f3', '#6aa6cf', '#3b7fb0'], ['Panen raya kebun kopi', 'Hasil unggulan desa', '#dcefd9', '#8cc58a', '#3f9a6b']];
+const scene = (a, b, c, id) => `<svg viewBox="0 0 800 300" preserveAspectRatio="xMidYMax slice" aria-hidden="true"><defs><linearGradient id="heroSky-${id}" x2="0" y2="1"><stop stop-color="${a}"/><stop offset="1" stop-color="#f1fbf5"/></linearGradient></defs><rect width="800" height="300" fill="url(#heroSky-${id})"/><circle cx="650" cy="65" r="38" fill="#fff4c4" opacity=".9"/><path d="M0 180Q140 70 300 170T590 145T800 150V300H0Z" fill="#9ac9a6"/><path d="M0 215Q170 130 360 205T800 185V300H0Z" fill="${b}"/><path d="M0 245Q180 175 420 250T800 220V300H0Z" fill="${c}"/><g fill="none" stroke="#d9f2d1" stroke-width="5" opacity=".8"><path d="M-20 260Q180 205 380 265T820 240"/><path d="M-20 285Q180 230 380 290T820 265"/></g><g fill="#26795f"><path d="M75 235l-20-55 20-30 20 30z"/><path d="M75 195l-35-20 35-25 35 25z"/><rect x="70" y="235" width="10" height="35" fill="#795b3b"/></g></svg>`;
+$('#sls').innerHTML = S.map((s, idx) => `<div class="sl">${scene(s[2], s[3], s[4], idx)}<p><b>${s[0]}</b><span>${s[1]}</span></p></div>`).join('');
+$('#dots').innerHTML = S.map(() => '<i></i>').join('');
+let i = 0;
+const go = n => { i = (n + S.length) % S.length; $('#sls').style.transform = `translateX(-${i * 100}%)`; $$('#dots i').forEach((d, k) => d.classList.toggle('on', k === i)); };
+go(0);
+$('.prev').onclick = () => go(i - 1);
+$('.next').onclick = () => go(i + 1);
+/* Slider: swipe, titik bisa diklik, jeda otomatis */
+(() => {
+    const sl = $('.slider'); let x0 = null, pause = false, t;
+    const rm = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    sl.addEventListener('pointerdown', e => { x0 = e.clientX; pause = true; clearTimeout(t); });
+    sl.addEventListener('pointerup', e => { if (x0 !== null) { const d = e.clientX - x0; if (Math.abs(d) > 40) go(i + (d < 0 ? 1 : -1)); } x0 = null; t = setTimeout(() => pause = false, 4000); });
+    sl.addEventListener('pointercancel', () => { x0 = null; pause = false; });
+    sl.addEventListener('mouseenter', () => pause = true);
+    sl.addEventListener('mouseleave', () => pause = false);
+    sl.addEventListener('focusin', () => pause = true);
+    sl.addEventListener('focusout', () => pause = false);
+    $$('#dots i').forEach((d, k) => { d.onclick = () => go(k); });
+    if (!rm) setInterval(() => { if (!pause && !document.hidden) go(i + 1); }, 5500);
+})();
+/* Beranda */
+$('#ann').innerHTML = [['Penting', 'Pembayaran PBB dibuka sampai 30 November 2026 di kantor desa.'], ['Info', 'Musyawarah Desa RKP 2027: Jumat, 20 November, pukul 19.30 di Balai Desa.'], ['Info', 'Vaksinasi hewan ternak gratis, Sabtu 21 November di lapangan desa.']].map(a => `<div class="ann"><span class="tag ${a[0] == 'Penting' ? 'w' : ''}">${a[0]}</span><span>${a[1]}</span></div>`).join('');
+$('#news').innerHTML = [['🛣️', 'Gotong royong perbaikan jalan Dusun Krajan', '12 Nov 2026', 'Ratusan warga bekerja bersama memperbaiki jalan sepanjang 800 meter.'], ['🩺', 'Posyandu balita November dibuka', '10 Nov 2026', 'Penimbangan dan imunisasi gratis setiap Selasa pagi di balai dusun.'], ['💻', 'Pelatihan pemasaran digital untuk UMKM', '8 Nov 2026', 'Pelaku usaha belajar memotret produk dan berjualan lewat ponsel.']].map(n => `<article class="card nw"><div class="im">${n[0]}</div><span class="mu">${n[2]}</span><h3>${n[1]}</h3><p class="mu" style="margin:0">${n[3]}</p></article>`).join('');
+/* Profil */
+$('#staff').innerHTML = [['Budi Santoso', 'Kepala Desa'], ['Siti Rahmawati', 'Sekretaris Desa'], ['Agus Prasetyo', 'Kaur Keuangan'], ['Dewi Lestari', 'Kaur Perencanaan'], ['Hendra Wijaya', 'Kasi Pelayanan'], ['Rina Marlina', 'Kasi Kesejahteraan'], ['Joko Susilo', 'Kepala Dusun I'], ['Eko Purnomo', 'Kepala Dusun II']].map((p, k) => `<div class="card stf"><div class="ph" style="background:hsl(${150 + k * 13} 40% 62%)"><svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="4.5"/><path d="M3 24c0-5.5 4-8 9-8s9 2.5 9 8z"/></svg></div><p><b>${p[0]}</b></p><p class="mu">${p[1]}</p></div>`).join('');
+$('#infra').innerHTML = [['🛣️', 'Jalan desa', '18,5 km', '65% sudah beraspal'], ['💧', 'Air bersih', '3 sumber mata air', 'Melayani 92% KK'], ['⚡', 'Listrik', '98% KK', 'Penerangan jalan 120 titik'], ['🌐', 'Internet', '3 titik WiFi desa', 'Balai desa dan 2 dusun'], ['🏫', 'Pendidikan', '5 sekolah', '2 PAUD, 2 SD, 1 SMP'], ['🏥', 'Kesehatan', '1 Pustu, 4 Posyandu', 'Bidan desa siaga'], ['🛕', 'Tempat ibadah', '8 unit', 'Masjid, musala, dan lainnya'], ['🏟️', 'Fasilitas umum', 'Balai, pasar, lapangan', 'Masing-masing 1 unit']].map(f => `<div class="card inf"><span>${f[0]}</span><p><b>${f[1]}</b></p><p><b style="color:var(--g)">${f[2]}</b></p><p class="mu">${f[3]}</p></div>`).join('');
+/* Surat */
+const T = { 'SRT-2026-0101': [3, 'Surat Keterangan Domisili'], 'SRT-2026-0102': [1, 'Surat Keterangan Usaha'], 'SRT-2026-0103': [2, 'Pengantar SKCK'] };
+let sn = 104;
+const ST = ['Diajukan', 'Diverifikasi petugas', 'Sedang diproses', 'Siap diambil di kantor desa'];
+const op = (sel, html) => { const el = $(sel); el.innerHTML = '<p class="card op" style="margin-top:14px">🤖 Operator AI sedang menyiapkan balasan…</p>'; setTimeout(() => el.innerHTML = `<div class="card op" style="margin-top:14px"><b>🤖 Operator AI</b><p style="margin:6px 0 0">${html}</p></div>`, 500); };
+const EST = { 'Surat Keterangan Domisili': 'Estimasi selesai 1 hari kerja.', 'Surat Keterangan Tidak Mampu': 'Estimasi selesai 2 hari kerja.', 'Surat Keterangan Usaha': 'Estimasi selesai 2 hari kerja.', 'Pengantar SKCK': 'Estimasi selesai 1 hari kerja.', 'Surat Pengantar Nikah': 'Estimasi selesai 3 hari kerja.' };
+const AE = { Infrastruktur: 'Laporan diteruskan ke Kaur Perencanaan, dan tim akan meninjau lokasi dalam 1–3 hari kerja.', Lingkungan: 'Laporan diteruskan ke Kasi Kesejahteraan, dan tim akan memeriksa lokasi dalam 1–3 hari kerja.', Pelayanan: 'Masukan Anda diteruskan ke Kasi Pelayanan dan akan ditanggapi maksimal 2 hari kerja.', Keamanan: 'Laporan ditandai prioritas dan diteruskan ke Kepala Desa. Jika situasi darurat, segera hubungi 110 atau perangkat desa terdekat.', Lainnya: 'Laporan akan dibaca perangkat desa dan ditanggapi dalam 3 hari kerja.' };
+let ac = 4;
+$('#fs').onsubmit = e => { e.preventDefault(); const c = 'SRT-2026-0' + (sn++), j = $('#js').value, n = esc($('#ns').value.trim().split(' ')[0]); T[c] = [0, j]; e.target.reset(); op('#sr', `Terima kasih, ${n}! Pengajuan <b>${esc(j)}</b> sudah kami terima dengan kode <b>${c}</b>. ${EST[j]} Siapkan KTP dan KK asli saat mengambil surat. Pantau prosesnya lewat kolom Lacak status. Jika ada data yang kurang, petugas akan menghubungi Anda.`); };
+$('#ft').onsubmit = e => {
+    e.preventDefault();
+    const c = $('#kd').value.trim().toUpperCase(), t = T[c];
+    $('#tr').innerHTML = t ? `<p style="margin-top:14px"><b>${esc(t[1])}</b><br><span class="mu">${c}</span></p><ol class="steps">${ST.map((s, k) => `<li class="${k < t[0] ? 'd' : k == t[0] ? 'n' : ''}">${s}</li>`).join('')}</ol>` : `<p style="margin-top:14px">Kode tidak ditemukan. Periksa kembali kode pengajuan Anda.</p>`;
+};
+/* Aduan */
+const C = [['Lampu jalan mati di RT 03', 'Infrastruktur', 'Diproses', '9 Nov'], ['Sampah menumpuk dekat pasar', 'Lingkungan', 'Diterima', '11 Nov'], ['Saluran irigasi tersumbat', 'Lingkungan', 'Selesai', '2 Nov']];
+const cls = { Diterima: 'nw2', Diproses: 'pr', Selesai: 'ok' };
+const rc = () => $('#cl').innerHTML = C.map(c => `<div class="item"><div><b>${esc(c[0])}</b><br><span class="mu">${c[1]} · ${c[3]}${c[4] ? ' · ' + c[4] : ''}</span></div><span class="st ${cls[c[2]]}">${c[2]}</span></div>`).join('');
+rc();
+$('#fa').onsubmit = e => { e.preventDefault(); const k = $('#ak').value, n = esc($('#an').value.trim().split(' ')[0]), c = 'ADU-2026-0' + (ac++); C.unshift([$('#ai').value.slice(0, 60), k, 'Diterima', new Date().toLocaleDateString('id-ID', {day:'numeric', month:'short', timeZone:'Asia/Jakarta'}), c]); e.target.reset(); rc(); op('#ar', `${n ? 'Terima kasih, ' + n + '. ' : 'Terima kasih. '}Pengaduan kategori <b>${k}</b> sudah kami terima dengan kode <b>${c}</b>. ${AE[k]} Pantau perkembangannya di daftar Status pengaduan.`); };
+/* Data */
+$('#idm').innerHTML = [['Indeks Ketahanan Sosial', 81], ['Indeks Ketahanan Ekonomi', 74], ['Indeks Ketahanan Lingkungan', 79]].map(d => `<b>${d[0]}</b> <span style="float:right">0,${d[1]}</span><div class="pb"><b style="width:${d[1]}%"></b></div>`).join('');
+$('#sdg').innerHTML = '<p class="mu">Capaian contoh untuk 6 dari 18 tujuan.</p><div class="grid">' + [['Desa tanpa kemiskinan', 72], ['Desa sehat dan sejahtera', 81], ['Pendidikan desa berkualitas', 76], ['Air bersih dan sanitasi', 88], ['Energi bersih dan terjangkau', 69], ['Desa peduli lingkungan', 74]].map(d => `<div><b>${d[0]}</b> <span style="float:right">${d[1]}%</span><div class="pb"><b style="width:${d[1]}%"></b></div></div>`).join('') + '</div>';
+$('#stat').innerHTML = [['Penduduk', '4.212'], ['Kepala keluarga', '1.268'], ['Laki-laki', '2.098'], ['Perempuan', '2.114']].map(s => `<div class="card"><div class="big" style="font-size:30px">${s[1]}</div><span class="mu">${s[0]}</span></div>`).join('');
+const age = [['0–14', 980], ['15–29', 1120], ['30–44', 1090], ['45–59', 640], ['60+', 382]];
+$('#age').innerHTML = age.map(a => `<div><small>${a[1]}</small><b style="height:${a[1] / 1120 * 78}%"></b><small>${a[0]}</small></div>`).join('');
+const J = [['Petani', 42, '#26795f'], ['Pedagang dan UMKM', 21, '#2f77a8'], ['Buruh', 14, '#6fb3a0'], ['PNS dan guru', 8, '#8dbbe0'], ['Lainnya', 15, '#b9cfc9']];
+let a = 0;
+$('#dn').style.background = 'conic-gradient(' + J.map(j => { const s = a; a += j[1]; return `${j[2]} ${s}% ${a}%`; }).join(',') + ')';
+$('#lg').innerHTML = J.map(j => `<div class="lg"><i style="background:${j[2]}"></i>${j[0]} (${j[1]}%)</div>`).join('');
+/* UMKM */
+$('#prods').innerHTML = [['Kopi Robusta Marga Mulya', 'Rp 45.000 / 250 g', '☕', 'Koperasi Tani Makmur'], ['Keripik Singkong Balado', 'Rp 18.000 / bungkus', '🥔', 'BUMDes'], ['Madu Hutan Murni', 'Rp 85.000 / 500 ml', '🍯', 'Kelompok Lebah Desa'], ['Batik Tulis Motif Padi', 'Rp 250.000 / lembar', '👘', 'Sanggar Batik Asri'], ['Gula Aren Cetak', 'Rp 22.000 / 500 g', '🟤', 'UMKM Bu Marni'], ['Anyaman Bambu', 'Rp 60.000 / buah', '🧺', 'Kelompok Perajin']].map(p => `<article class="card pd"><div class="im">${p[2]}</div><h3>${p[0]}</h3><p class="mu" style="margin:0">${p[3]}</p><p><b>${p[1]}</b></p><a class="btn" href="https://wa.me/6281200000000?text=${encodeURIComponent('Halo, saya ingin memesan ' + p[0])}" target="_blank" rel="noopener">Pesan lewat WhatsApp</a></article>`).join('');
+
+/* Asisten Wisata: rekomendasi lokal berbasis pilihan pengguna */
+const tourPlans = {
+ alam: {title:'Rute alam & fotografi', steps:['08.00 — Mulai dari panorama sawah saat cahaya pagi','08.30 — Jalan santai dan ambil foto dari area yang aman','09.15 — Istirahat, minum air, dan menikmati suasana','09.45 — Kunjungi produk lokal sebelum kembali'], longer:'Tambahkan waktu untuk menikmati kebun warga dan beristirahat di area publik.'},
+ keluarga: {title:'Rute keluarga santai', steps:['Mulai dengan berjalan santai di lingkungan desa','Beristirahat di ruang publik atau taman desa','Kenalkan anak pada lingkungan dan kegiatan warga','Akhiri dengan melihat katalog UMKM lokal'], longer:'Sisihkan waktu ekstra untuk istirahat dan aktivitas ramah anak.'},
+ edukasi: {title:'Rute edukasi pertanian', steps:['Perkenalan dengan tanaman dan hasil bumi lokal','Belajar mengenali tahapan budidaya bersama pemandu warga','Diskusi singkat tentang panen dan lingkungan','Lihat contoh produk olahan hasil bumi'], longer:'Tambahkan sesi praktik ringan hanya jika tersedia dan diizinkan pemilik kebun.'},
+ kuliner: {title:'Rute kuliner & UMKM', steps:['Mulai dari katalog produk UMKM desa','Kenali proses dan cerita produk lokal','Cicipi atau beli produk sesuai ketersediaan','Tutup kunjungan dengan berinteraksi bersama pelaku usaha'], longer:'Tambahkan waktu untuk beberapa pelaku UMKM, setelah mengonfirmasi jam buka.'}
+};
+$('#tour-generate').onclick = () => {
+ const plan = tourPlans[$('#tour-style').value], duration = Number($('#tour-duration').value);
+ const list = plan.steps.slice(0, duration === 2 ? 3 : 4).map(s=>`<li>${s}</li>`).join('');
+ $('#tour-result').innerHTML = `<b>✨ ${plan.title} (${duration} jam)</b><ol>${list}</ol><p>${duration >= 4 ? plan.longer : 'Rencana singkat ini fleksibel—sesuaikan dengan kondisi lokasi.'}</p><small>Catatan: destinasi dan jam di atas berupa contoh konsep website. Pastikan lokasi, izin, keselamatan, dan ketersediaan aktual terlebih dahulu.</small>`;
+};
+$$('.tour-pick').forEach(b => b.onclick = () => { $('#tour-style').value = b.dataset.tour.includes('kuliner') ? 'kuliner' : b.dataset.tour.includes('Kebun') ? 'edukasi' : b.dataset.tour.includes('kampung') ? 'keluarga' : 'alam'; $('#wisata-ai').scrollIntoView({behavior:'smooth'}); $('#tour-generate').click(); });
+
+$('#goto-ai').onclick = () => $('#wisata-ai').scrollIntoView({behavior:'smooth'});
+
+/* Chatbot */
+const R = [[/wisata|jalan-jalan|destinasi|liburan|tour/, 'Buka menu Wisata untuk melihat inspirasi destinasi dan membuat rencana perjalanan dengan Asisten Wisata.', '#wisata', 'Jelajahi wisata desa'], [/surat|domisili|skck|nikah/, 'Untuk mengurus surat, isi formulir di menu Surat. Status bisa dilacak dengan kode pengajuan.', '#surat', 'Buka layanan surat'], [/aduan|lapor|keluh/, 'Anda bisa menulis pengaduan di menu Aduan dan memantau statusnya di daftar.', '#aduan', 'Buka pengaduan'], [/jam|buka|alamat|kantor/, 'Kantor desa buka Senin–Jumat, 08.00–15.00 WIB, di Jl. RE Martadinata (Tanjung Kait - Mauk), Kampung Bebulak RT.006/RW.003.'], [/produk|umkm|beli|pesan|kopi/, 'Lihat katalog produk warga dan pesan lewat WhatsApp di menu UMKM.', '#umkm', 'Lihat produk'], [/data|penduduk|idm|sdgs/, 'Data IDM, SDGs, dan statistik penduduk ada di menu Data.', '#data', 'Lihat data']];
+const say = (t, me, l, lt) => { const d = document.createElement('div'); d.className = me ? 'me' : ''; d.textContent = t; if (l) {
+    const a = document.createElement('a');
+    a.href = l;
+    a.textContent = lt;
+    a.onclick = () => $('#chat').hidden = true;
+    d.append(document.createElement('br'), a);
+} $('#msgs').append(d); $('#msgs').scrollTop = 1e5; };
+const ask = q => { say(q, 1); const r = R.find(r => r[0].test(q.toLowerCase())); setTimeout(() => r ? say(r[1], 0, r[2], r[3]) : say('Maaf, saya belum paham. Coba pilih salah satu topik di bawah atau hubungi kantor desa.'), 350); };
+say('Halo! Saya Asisten Desa. Ada yang bisa dibantu?');
+$('#chips').innerHTML = ['Wisata desa', 'Urus surat', 'Kirim aduan', 'Produk desa'].map(c => `<button type="button">${c}</button>`).join('');
+$$('#chips button').forEach(b => b.onclick = () => ask(b.textContent));
+$('#fc').onsubmit = e => { e.preventDefault(); const v = $('#ci').value.trim(); if (v) {
+    ask(v);
+    $('#ci').value = '';
+} };
+const setChat = open => { $('#chat').hidden = !open; $('#fab').setAttribute('aria-expanded', String(open)); };
+$('#fab').onclick = () => setChat($('#chat').hidden);
+$('#chat-close').onclick = () => { setChat(false); $('#fab').focus(); };
+addEventListener('keydown', e => { if (e.key === 'Escape' && !$('#chat').hidden) $('#chat-close').click(); });
+  </script>
+ </body>
+</html>
